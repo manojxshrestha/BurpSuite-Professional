@@ -11,7 +11,6 @@
  </h1>
 
 <br></br>
-
 <h1 align="center"> Step by Step Installation </h1>
 
 <br></br>
@@ -49,16 +48,16 @@ To run Burp Suite, you’ll need to install OpenJDK (Java Development Kit), as i
 </br>
 
 
-> 4. Once downloaded, open a terminal in the location where you saved the .deb file.
+> 3. Once downloaded, open a terminal in the location where you saved the .deb file.
 
-> 6. Run the following commands to install OpenJDK:
+> 4. Run the following commands to install OpenJDK:
 
 ```bash
 chmod +x openlogic-openjdk-8u392-b08-linux-x64-deb.deb
 ```
 
 ```bash
-sudo dpkg -i openlogic-openjdk-8u392-b08-linux-x64-deb.deb`
+sudo dpkg -i openlogic-openjdk-8u392-b08-linux-x64-deb.deb
 ```
 
 > Enter your password when prompted to complete the installation.
@@ -135,7 +134,7 @@ touch ~/Desktop/Burpsuite/burp.sh
 </br>
 
 ```bash
-pluma ~/Desktop/Burpsuite/burp.sh`
+pluma ~/Desktop/Burpsuite/burp.sh
 ```
 <br>
 • Add the following content to the script, ensuring it points to the correct JAR files:
